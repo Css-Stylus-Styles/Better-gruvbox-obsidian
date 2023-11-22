@@ -1,9 +1,8 @@
-**Better theme for obisidian** 
-- initial commit 
-- add docs here later 
+
+**Design decision**
+- making the contrast more tighter for more appealing look 
+- making the html headings represent a gradient i.e headings change color as the number goes to 6 
 
 
-**Here is how the modified version looks**
-![image](https://github.com/bilalazh/Better-gruvbox-obsidian/assets/139261053/f908f3be-81e0-45b1-a98a-d88cf7c0e94b)
 
-
+**Adding two themes here and these two themes will be interated upon in the comming days**
