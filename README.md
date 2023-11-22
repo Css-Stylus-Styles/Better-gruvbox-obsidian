@@ -16,6 +16,9 @@
 
 
 **How to modify**
+Accent color: 
+#4b4b06
+
 - vs code workflow 
 - manual workflow
 **Thanks To Projects**
