@@ -69,6 +69,8 @@
 
     
 
+    
+
 
 
     --bg_visual_light:      #eaedc8;
@@ -251,27 +253,51 @@ so a good balance between contrast and readability is very good */
     --flashing-background:           var(--faded-green);
 
 
+
+/* 
+
+|___________|  
+|    CODE Styles   |
+|__________|
+(\__/) || 
+(•ㅅ•) || 
+/     づ
+
+*/
+
     /* TODO: -> change this later */
 /* Code Styles */
     --code-normal:                   var(--bg-light);
     /* Code background */
     /* it can be useful to change this to other color so that i can make this better */
-    --code-comment-color: var(--dim-red) !important;
+    /* comments */
+    --code-comment-color: var(--text--veryfade) !important;
 
-
-
+    /* background color of the code block  */
+    /* custom defined color that does not come in the gruvbox but is suitable for this theme  */
     --code-background:               var(--shadow-var1);
 
-     --codeblock-background: var(--bg0-dh) !important;
-    --codeblock-color: var(--dim-orange);
-    --inline-code-background: var(--bg_green);
-    --inline-code-color: var(--bg_green);
-    --code-variable-color: var(--faded-purple);
+    /* this line was not being used here */
+     /* --codeblock-background: var(--bg0-dh) !important; */
+    --codeblock-color: var(--faded-aqua);
+
+/* not working here */
+    /* --inline-code-background: var(--bg_green); */
+    --inline-code-color: var(--faded-red);
+    /* variable color -- planned to keep it the same for better readability */
+    --code-variable-color: var(--faded-blue);
+    /* color of the functions (might change this lateer) */
     --code-function-color: var(--dim-red);
+/* i thnk these are the built in krywords  */
+/* like for and in in python  */
     --code-builtin-color: var(--bg_green);
-    --code-string-color: var(--fg-dark);
+/* string colors  */
+    --code-string-color: var(--text-offwhite-faded);
+    /* operator color */
     --code-operator-color: var(--faded-orange);
-    --code-comment-color: var(--dim-red);
+
+
+    
 
 
 
@@ -306,10 +332,13 @@ so a good balance between contrast and readability is very good */
 
     /*  GRAPH STYLES*/
     /* 
-    [[*]] ------> [[*]]                         
-                                \                   [[*]]
-                                    \           /
-                                        [[*]]	
+                                    [[*]] ------> [[*]]                         
+                                                                \                   [[*]]              /
+                                                                    \           
+                                                                        [[*]]
+                                                                    /
+                                                                /       
+                                                        [[*]]
     */
     /*color of graph lines*/
     --graph-line:                    var(--faded-green);
@@ -324,6 +353,12 @@ so a good balance between contrast and readability is very good */
 
 
 
+    /* 
+    | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
+|---|---|---|---|---|---|---|
+| | | | 22 | 23 | 24 | 25 |
+| 26 | 27 | 28 | 29 | 30 | | |
+    */
 
 /* dont use the calender  */
 /*  will be set to sensible defuaults */
@@ -331,6 +366,9 @@ so a good balance between contrast and readability is very good */
     --calendar-background-hover:     var(--bg0-dh);
     --calendar-week:                 var(--faded-orange);
     --calendar-today:                var(--dim-orange);
+
+
+
 
     /* dont use dataview yet  */
     /* setiing it to sensible defaults */
@@ -456,6 +494,7 @@ so a good balance between contrast and readability is very good */
 
 /* This Works flawlessly for the code block color changing */
 
+/* You can change   the way code block colors change by using these styles*/
 /* code styles i am entering myself here from other file make sure these work */
 .cm-link, .cm-variable, .cm-variable-2, .cm-variable-3 {color: var(--code-variable-color)!important;} /* variable */
 .cm-def.cm-hmd-codeblock, .token.function{
@@ -666,3 +705,5 @@ pre[class*="language-"]
 {
     color: var(--bright-red);
 }
+
+
