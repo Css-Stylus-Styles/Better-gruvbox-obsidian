@@ -9,6 +9,12 @@
 - making the html headings represent a gradient i.e headings change color as the number goes to 6 
 - improved the code colors better
 
+**How to use this as theme** 
+ - terminal git workflow
+[[general path to your .obsidian folder]]
+
+- how to download and work with zip
+
 **Screenshots**
 
 [[Add Screenshots]]
