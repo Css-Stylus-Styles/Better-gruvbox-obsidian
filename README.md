@@ -16,7 +16,9 @@
 
 
 **How to modify**
-Accent color: 
+
+
+**Accent color**: 
 #4b4b06
 
 - vs code workflow 
