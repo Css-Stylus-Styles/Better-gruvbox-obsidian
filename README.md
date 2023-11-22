@@ -31,6 +31,9 @@
 - manual workflow
 **Thanks To Projects**
 
+**TODOS**:
+- Way to change the color of Titles(See other themes for this )
+
 **FAQS**
 - Will you make more variants of this ?
 - Any plans to release this to official theme broswing page on Obsidian?
