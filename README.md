@@ -58,9 +58,13 @@ Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the
 
 ##### What is Git ?? and terminal???
  so if you have no idea about how to use git clone or terminal  fear not installation manually is still super easy .Follow these steps 
-- on github page you should see a clickable link to ``better gruvbox (neon).css`` click on this file 
+- on github page you should see a clickable link to ``better gruvbox (neon).css`` click on this file
+  
+you should see a download button now  , once you have the  file ending in `.css ` 
 
+![image](https://github.com/bilalazh/Better-gruvbox-obsidian/assets/139261053/1d9f5657-650b-4364-9366-680c7099dd3f)
 
+the steps to place it at the right folder are same as earlier 
 
 - Obsidian themes??
 
