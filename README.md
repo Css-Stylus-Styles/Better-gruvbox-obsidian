@@ -1,4 +1,9 @@
+### Table of Content : 
+
+
+
 **Motivation  and Philosophy**
+Obisdian is one the most used software for me  , i use  it 
 
 - every other theme was just not it 
 - wrote an implementation from scratch 
