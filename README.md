@@ -74,7 +74,6 @@ place ``better gruvbox (neon).css`` file to ``drive:\{Path to your vault}\.obsid
 Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the drop down 
 
 
-- Obsidian themes??
 
 **Screenshots**
 
@@ -83,6 +82,7 @@ Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the
 
 
 **How to modify**
+
 
 
 
