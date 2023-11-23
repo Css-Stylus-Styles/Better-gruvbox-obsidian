@@ -1,17 +1,21 @@
 ### Table of Content : 
 
-
-
 **Motivation  and Philosophy**
-Obisdian is one the most used software for me  , i use  it 
+Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
 
-- every other theme was just not it 
-- wrote an implementation from scratch 
+i was into gruvbox theme lately and found it to be the best theme being easy on eyes as well as easy to read in for long sessions and since this is my most used app i decided to modify obsidian theme to fit my own preferences 
+
+**I know that there are 3 themes when you search for gruvbox on obsidian but i found contrast issues and use of inconsistent colors a common thing across theese themes**
+
+Although i might not be good at coding  but i took parts from other theme and even wrote some parts from scratch to make this theme possible
+
 
 **Design decisions**
 
-- making the contrast more tighter for more appealing look 
-- making the html headings represent a gradient i.e headings change color as the number goes to 6 
+Here are some considerations i had in mind while i was designing this 
+ - Making something to use for a long hours (easy to read text , no contrast issues )
+- Making sure theme follows [Gruvbox ](https://github.com/morhetz/gruvbox) color scheme very  closely (some alternative decisions are made for better readibility of text i.e *adding darker color for code blocks*)
+- Every theme you install the ``headings`` from ``H1 to H6`` are diffrerent colors and when you switch themes its hard to tell **WAS THIS H4 or H5  ?? am i using different font size no??** -> to solve this i made all the headings follow a gradient from  
 - improved the code colors better
 
 **How to use this as theme** 
