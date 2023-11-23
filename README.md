@@ -30,7 +30,13 @@ Here are some considerations i had in mind while i was designing this
 |`` h6 ``           | Dark Purple  |
 
 
-- improved the code colors better
+
+ **Fixed code blocks**
+- For most themes the syntax highlighting is not unfiorm some colors like variables and functions dont match the rest of the theme (in my theme there are seperate identifiers for every components of progamming languages like `operators` , `variables`, `functions`, `strings ` and more ) 
+using this approach you can have more control over the colors of code blocks
+
+if you want to change specific colors in code blocks please refer to [How to modify](#modify) section for more details
+
 
 **How to use this as theme** 
  - terminal git workflow
