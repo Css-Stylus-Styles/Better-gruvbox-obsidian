@@ -49,12 +49,12 @@ if you want to change specific colors in code blocks please refer to [How to mod
 ```
 https://github.com/bilalazh/Better-gruvbox-obsidian.git
 ```
+
 place ``better gruvbox (neon).css`` file to ``drive:\{Path to your vault}\.obsidian\themes``
 
 - inside your vault there should be a ``.obsidian`` folder , thats where your themes live inside ``themes `` folder  
 
 Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the drop down 
-
 
 ##### What is Git ?? and terminal???
  so if you have no idea about how to use git clone or terminal  fear not installation manually is still super easy .Follow these steps 
@@ -65,6 +65,14 @@ you should see a download button now  , once you have the  file ending in `.css 
 ![image](https://github.com/bilalazh/Better-gruvbox-obsidian/assets/139261053/1d9f5657-650b-4364-9366-680c7099dd3f)
 
 the steps to place it at the right folder are same as earlier 
+
+
+place ``better gruvbox (neon).css`` file to ``drive:\{Path to your vault}\.obsidian\themes``
+
+- inside your vault there should be a ``.obsidian`` folder , thats where your themes live inside ``themes `` folder  
+
+Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the drop down 
+
 
 - Obsidian themes??
 
