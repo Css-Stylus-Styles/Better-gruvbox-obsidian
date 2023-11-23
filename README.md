@@ -18,7 +18,18 @@ Although i might not be good at coding  but i took parts from other theme and ev
 Here are some considerations i had in mind while i was designing this 
  - Making something to use for a long hours (easy to read text , no contrast issues )
 - Making sure theme follows [Gruvbox ](https://github.com/morhetz/gruvbox) color scheme very  closely (some alternative decisions are made for better readibility of text i.e *adding darker color for code blocks*)
-- Every theme you install the ``headings`` from ``H1 to H6`` are diffrerent colors and when you switch themes its hard to tell **WAS THIS H4 or H5  ?? am i using different font size no??** -> to solve this i made all the headings follow a gradient from  
+- Every theme you install the ``headings`` from ``H1 to H6`` are diffrerent colors and when you switch themes its hard to tell **WAS THIS H4 or H5  ?? am i using different font size no??** -> to solve this i made all the headings follow a gradient  as shown here in the table 
+
+| Heading Level | Color Name   |
+|---------------|--------------|
+| h1            | Dark Orange  |
+| h2            | Dark Yellow  |
+| h3            | Dark Green   |
+| h4            | Dark Aqua    |
+| h5            | Dark Blue    |
+| h6            | Dark Purple  |
+
+
 - improved the code colors better
 
 **How to use this as theme** 
