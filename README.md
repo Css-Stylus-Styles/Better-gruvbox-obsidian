@@ -22,12 +22,12 @@ Here are some considerations i had in mind while i was designing this
 
 | Heading Level | Color Name   |
 |---------------|--------------|
-| h1            | Dark Orange  |
-| h2            | Dark Yellow  |
-| h3            | Dark Green   |
-| h4            | Dark Aqua    |
-| h5            | Dark Blue    |
-| h6            | Dark Purple  |
+| ``h1``            | Dark Orange  |
+| ``h2``            | Dark Yellow  |
+|`` h3``            | Dark Green   |
+| ``h4``            | Dark Aqua    |
+|`` h5 ``           | Dark Blue    |
+|`` h6 ``           | Dark Purple  |
 
 
 - improved the code colors better
