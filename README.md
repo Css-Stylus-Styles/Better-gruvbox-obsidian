@@ -1,7 +1,7 @@
 ### Table of Content : 
 
 [Motivation  and Philosophy](#motivation)
-**Design decisions**
+[Design decisions](#design)
 
  ## Motivation  and Philosophy <a name= "#motivation"></a>
 Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
@@ -13,7 +13,7 @@ i was into gruvbox theme lately and found it to be the best theme being easy on 
 Although i might not be good at coding  but i took parts from other theme and even wrote some parts from scratch to make this theme possible
 
 
-## Design decisions
+## Design decisions <a name= "#design"></a>
 
 Here are some considerations i had in mind while i was designing this 
  - Making something to use for a long hours (easy to read text , no contrast issues )
