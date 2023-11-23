@@ -1,7 +1,7 @@
 ### Table of Content : 
 
-[Motivation  and Philosophy](#motivation)
-[Design decisions](#design)
+- [Motivation  and Philosophy](#motivation)
+- [Design decisions](#design)
 
  ## Motivation  and Philosophy <a name= "#motivation"></a>
 Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
