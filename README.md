@@ -2,6 +2,7 @@
 
 - [Motivation  and Philosophy](#motivation)
 - [Design decisions](#design)
+- [How to install and use](#install)
 
  ## Motivation  and Philosophy <a name= "motivation"></a>
 Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
@@ -38,11 +39,16 @@ using this approach you can have more control over the colors of code blocks
 if you want to change specific colors in code blocks please refer to [How to modify](#modify) section for more details
 
 
-**How to use this as theme** 
+## How to install and use  <a name ="install"></a>
+
+
+
  - terminal git workflow
 [[general path to your .obsidian folder]]
 
 - how to download and work with zip
+
+- Obsidian themes??
 
 **Screenshots**
 
@@ -52,6 +58,9 @@ if you want to change specific colors in code blocks please refer to [How to mod
 
 **How to modify**
 
+
+
+**Fonts I am using**
 
 **Accent color**: 
 #4b4b06
