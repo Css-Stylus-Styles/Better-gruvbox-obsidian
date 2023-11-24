@@ -3,6 +3,8 @@
 - [Motivation  and Philosophy](#motivation)
 - [Design decisions](#design)
 - [How to install and use](#install)
+        - [Install with git using command line](#git)
+        - [Install by downloading the file](#git)
 
  ## Motivation  and Philosophy <a name= "motivation"></a>
 Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
@@ -41,7 +43,7 @@ if you want to change specific colors in code blocks please refer to [How to mod
 
 ## How to install and use  <a name ="install"></a>
 
-#####  I CAN USE GIT 
+####  I CAN USE GIT <a name="git"></a>
 
 **Terminal git workflow**
 
@@ -57,7 +59,7 @@ place ``better gruvbox (neon).css`` file to ``drive:\{Path to your vault}\.obsid
 
 Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the drop down 
 
-##### What is Git ?? and terminal???
+#### What is Git ?? and terminal??? <a name = "!git"></a>
  so if you have no idea about how to use git clone or terminal  fear not installation manually is still super easy .Follow these steps 
 - on github page you should see a clickable link to ``better gruvbox (neon).css`` click on this file
   
@@ -83,11 +85,27 @@ Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the
 
 
 **How to modify**
+If you want to modify theme i'll assume that you know some css and /or probably have done this before
+
+- Consider making a copy of ``.css`` file and open the copy with your text editor of choice
+
+open ``better gruvbox (neon).css`` with your favourite text editor `vs code`  , `neovim ` , `emacs` 
+
+There are some colors that are not mentioned in  [Gruvbox ](https://github.com/morhetz/gruvbox) color theme , you are seeing them because they were in previous theme or i added them for better readability for cases like `Code blocks` in dark mode and `current line highlight color` is also a custom color as well
+
+Every part of code is commented with semi-helpful comments that i will likely improve in the next iteration of this theme 
 
 
 
 
 **Fonts I am using**
+
+
+Interface font is  : georgia
+Text Font is : HelvetivaNeue
+Monospace font : Cascasdia code
+
+
 
 **Accent color**: 
 #4b4b06
@@ -97,7 +115,6 @@ Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the
 **Thanks To Projects**
 
 **TODOS**:
-- Way to change the color of Titles(See other themes for this )
 
 **FAQS**
 - Will you make more variants of this ?
