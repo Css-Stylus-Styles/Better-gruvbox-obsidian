@@ -100,6 +100,7 @@ Every part of code is commented with semi-helpful comments that i will likely im
 
 **Fonts I am using**
 
+Here are the font that can be seen in screenshots
 
 Interface font is  : georgia
 Text Font is : HelvetivaNeue
