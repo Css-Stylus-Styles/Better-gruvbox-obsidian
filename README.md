@@ -111,9 +111,11 @@ Monospace font : Cascasdia code
 **Accent color**: 
 #4b4b06
 
-- vs code workflow 
-- manual workflow
 **Thanks To Projects**
+This project was made possible thanks to these open source projects
+
+- obsidian 
+- gruvbox
 
 **TODOS**:
 
