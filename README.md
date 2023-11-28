@@ -80,7 +80,29 @@ Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the
 
 **Screenshots**
 
-[[Add Screenshots]]
+### Light Mode:<a name = "Light"></a>
+
+**Spilt Screen view**
+
+![light theme general dash board look ](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/c28a4fe5-e21a-4919-84ea-b6d8e5d79cf5)
+
+**Graph View**
+
+![light theme graph look ](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/6df9581a-16f1-4eb5-8e8e-a7f3e257f02e)
+
+
+
+### Dark Mode : <a name = "Dark"></a>
+
+**Spilt Screen view**
+
+![dark  theme main dashboard ](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/e2561194-1186-4acc-8aa9-10da2374d830)
+
+
+**Graph View**
+
+
+![dark  theme graph look ](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/288aa36e-40b3-4644-ae20-3d28603fb433)
 
 
 
