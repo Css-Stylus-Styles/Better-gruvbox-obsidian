@@ -3,14 +3,16 @@
 - [Motivation  and Philosophy](#motivation)
 - [Design decisions](#design)
 - [How to install and use](#install)
-        - [Install with git using command line](#git)
-        - [Install by downloading the file](#!git)
- - [Screenshots](#ss) 
-        - [Light Mode screenshots](#Light)
-        - [Dark Mode screenshots](#Dark)
+- [Install with git using command line](#git)
+- [Install by downloading the file](#!git)
+- [Screenshots](#ss) 
+- [Light Mode screenshots](#Light)
+- [Dark Mode screenshots](#Dark)
 - [How to modify](#modify)
 - [Font i used in the screenshots](#font)
 - [FAQs](#faq)
+
+
 
  ## Motivation  and Philosophy <a name= "motivation"></a>
 Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
