@@ -5,6 +5,9 @@
 - [How to install and use](#install)
         - [Install with git using command line](#git)
         - [Install by downloading the file](#git)
+ -[Screenshots](#ss) 
+        - [Light Mode screenshots](#Light)
+        - [Dark Mode screenshots](#Dark)
 
  ## Motivation  and Philosophy <a name= "motivation"></a>
 Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
@@ -78,7 +81,7 @@ Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the
 
 
 
-**Screenshots**
+## Screenshots <a name="ss"></a>
 
 ### Light Mode:<a name = "Light"></a>
 
@@ -125,8 +128,9 @@ Every part of code is commented with semi-helpful comments that i will likely im
 Here are the font that can be seen in screenshots
 
 - Interface font is  : `Georgia`
-- Text Font is : HelvetivaNeue
-- Monospace font : Cascasdia code
+- Text Font is : `HelvetivaNeue`
+- Monospace font : `Cascasdia Code`
+
 
 
 
