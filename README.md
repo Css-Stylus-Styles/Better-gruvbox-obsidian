@@ -3,8 +3,9 @@
 - [Motivation  and Philosophy](#motivation)
 - [Design decisions](#design)
 - [How to install and use](#install)
-        - [Install with git using command line](#git)
-        - [Install by downloading the file](#git)
+
+         - [Install with git using command line](#git)
+        - [Install by downloading the file](#!git)
 
  -[Screenshots](#ss) 
         - [Light Mode screenshots](#Light)
