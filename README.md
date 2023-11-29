@@ -108,8 +108,8 @@ Now hit ``ALT+SHIFT+O `` to change the theme and you should see the theme in the
 ![dark  theme graph look ](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/288aa36e-40b3-4644-ae20-3d28603fb433)
 
 
+## How to modify <a name = "modify"></a>
 
-**How to modify**
 If you want to modify theme i'll assume that you know some css and /or probably have done this before
 
 - Consider making a copy of ``.css`` file and open the copy with your text editor of choice
@@ -123,7 +123,7 @@ Every part of code is commented with semi-helpful comments that i will likely im
 
 
 
-**Fonts I am using**
+### Fonts I am using <a name= "fonts"></a>
 
 Here are the font that can be seen in screenshots
 
@@ -131,20 +131,17 @@ Here are the font that can be seen in screenshots
 - Text Font is : `HelvetivaNeue`
 - Monospace font : `Cascasdia Code`
 
-
-
-
 **Accent color**: 
 
 In the screenshots i am using as the accent color (this is not the part of gruvbox color scheme this is custom color used for better contrast )
 
-#4b4b06
+`#4b4b06`
 
 **Thanks To Projects**
 This project was made possible thanks to these open source projects
 
-- obsidian 
-- gruvbox
+- {obsidian](https://github.com/obsidianmd) 
+- {gruvbox](https://github.com/morhetz/gruvbox)
 
 
 **FAQS**
