@@ -13,6 +13,8 @@
 - [How to modify](#modify)
 - [Font i used in the screenshots](#font)
 
+- [FAQs](#faqs)
+
  ## Motivation  and Philosophy <a name= "motivation"></a>
 Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
 
@@ -148,7 +150,7 @@ This project was made possible thanks to these open source projects
 - [gruvbox](https://github.com/morhetz/gruvbox)
 
 
-**FAQS**
+## FAQs <a name= "faq"></a>
 - Will you make more variants of this ?
 
 Maybe its  just a Recency bias but so far i have been enjoying this theme very much , along with Recency bias it can be due to the fact that i made it and its custom tailored to suit me , but if i see fit i am going to make changes or rewrite this 
