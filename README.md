@@ -13,7 +13,7 @@
 - [How to modify](#modify)
 - [Font i used in the screenshots](#font)
 
-- [FAQs](#faqs)
+- [FAQs](#faq)
 
  ## Motivation  and Philosophy <a name= "motivation"></a>
 Using obsidian was transformative experience for my productivity and personal development .Certainly most used program for me after maybe the broswer , however i see myself changing theme alot (*At the time of making this i had 7 themes installed*) i used seperate themes for ``dark`` and ``light `` modes and found most themes to be good for either light or dark mode 
@@ -143,14 +143,15 @@ In the screenshots i am using as the accent color (this is not the part of gruvb
 
 `#4b4b06`
 
-**Thanks To Projects**
-This project was made possible thanks to these open source projects
 
-- [obsidian](https://github.com/obsidianmd) 
-- [gruvbox](https://github.com/morhetz/gruvbox)
 
 
 ## FAQs <a name= "faq"></a>
+- Can you please port these other themes to obsidian as well ?
+
+please have a look at obsidian store , i am sure you can find something you like , This theme is made for long sessions on the app and the contrast works for long hours both for light and dark mode , also see the [modify}(#modify) section if you want to modify this yourself, everything is well commented _You can do it :)_
+
+
 - Will you make more variants of this ?
 
 Maybe its  just a Recency bias but so far i have been enjoying this theme very much , along with Recency bias it can be due to the fact that i made it and its custom tailored to suit me , but if i see fit i am going to make changes or rewrite this 
@@ -159,3 +160,11 @@ Maybe its  just a Recency bias but so far i have been enjoying this theme very m
 - Any plans to release this to official theme broswing page on Obsidian?
 
 At this current point in time i have no idea how to do it , its in my TODO list and once this quesiton is removed from here , trying searching the theme in obsidian theme store you should find it 
+
+
+
+**Thanks To Projects**
+This project was made possible thanks to these open source projects
+
+- [obsidian](https://github.com/obsidianmd) 
+- [gruvbox](https://github.com/morhetz/gruvbox)
