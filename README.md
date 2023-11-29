@@ -124,13 +124,16 @@ Every part of code is commented with semi-helpful comments that i will likely im
 
 Here are the font that can be seen in screenshots
 
-Interface font is  : georgia
-Text Font is : HelvetivaNeue
-Monospace font : Cascasdia code
+- Interface font is  : `Georgia`
+- Text Font is : HelvetivaNeue
+- Monospace font : Cascasdia code
 
 
 
 **Accent color**: 
+
+In the screenshots i am using as the accent color (this is not the part of gruvbox color scheme this is custom color used for better contrast )
+
 #4b4b06
 
 **Thanks To Projects**
@@ -139,8 +142,13 @@ This project was made possible thanks to these open source projects
 - obsidian 
 - gruvbox
 
-**TODOS**:
 
 **FAQS**
 - Will you make more variants of this ?
+
+Maybe its  just a Recency bias but so far i have been enjoying this theme very much , along with Recency bias it can be due to the fact that i made it and its custom tailored to suit me , but if i see fit i am going to make changes or rewrite this 
+
+
 - Any plans to release this to official theme broswing page on Obsidian?
+
+At this current point in time i have no idea how to do it , its in my TODO list and once this quesiton is removed from here , trying searching the theme in obsidian theme store you should find it 
