@@ -162,7 +162,10 @@ At this current point in time i have no idea how to do it , its in my TODO list 
 
 
 
-**Thanks To Projects**
+
+
+## Thanks To Projects
+
 This project was made possible thanks to these open source projects
 
 - [obsidian](https://github.com/obsidianmd) 
