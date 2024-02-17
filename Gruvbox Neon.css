@@ -1,0 +1,1035 @@
+
+/* 
+
+                                    __                        
+                                   /\ \                       
+   __      _ __   __  __   __  __  \ \ \____    ___    __  _  
+ /'_ `\   /\`'__\/\ \/\ \ /\ \/\ \  \ \ '__`\  / __`\ /\ \/'\ 
+/\ \L\ \  \ \ \/ \ \ \_\ \\ \ \_/ |  \ \ \L\ \/\ \L\ \\/>  </ 
+\ \____ \  \ \_\  \ \____/ \ \___/    \ \_,__/\ \____/ /\_/\_\
+ \/___L\ \  \/_/   \/___/   \/__/      \/___/  \/___/  \//\/_/
+   /\____/                                                    
+   \_/__/                                                     
+
+
+*/
+
+:root
+
+{
+    /* 0 is for darkest 
+    1 is for hard 
+    higher values for hard  */
+
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
+
+    --faded-red:     #fb4934;
+    --faded-orange:  #fe8019;
+    --faded-yellow:  #fabd2f;
+    --faded-green:   #b8bb26;
+    --faded-aqua:    #8ec07c;
+    --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
+
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
+    
+
+    
+
+
+
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
+
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
+  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
+  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
+  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
+  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
+  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+  --dark-orange: #af3a03;
+
+
+/* light colors */
+  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
+  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
+  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
+  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
+  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
+  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
+  --interface-light4: #a89988; /* light4: #a89988 */
+
+
+   
+}
+
+body
+{
+    /* CURSOR gets its color from acent color too */
+    /* accent was not being set in a way i wanted it to so i had to set it from the interface later experimentation can be done here to make sure i can override it  */
+    /* use !important maybe to oveeride it and fix the issue */
+    --accent-h: 60; /* --neutral-green#98971a */
+    --accent-s: 71%;
+    --accent-l: 35%;
+
+    --link-decoration:                none;
+    --link-decoration-hover:          none;
+    --link-external-decoration:       none;
+    --link-external-decoration-hover: none;
+
+    --tag-decoration:                 none;
+    --tag-decoration-hover:           underline;
+    --tag-padding-x:                  .5em;
+    --tag-padding-y:                  .2em;
+    --tag-radius:                     .5em;
+
+    --tab-font-weight:                600;
+    --bold-weight:                    600;
+
+    --checkbox-radius:                0;
+
+    /* --list-indent:                    2em; */
+
+    --embed-border-left: 6px double var(--interactive-accent);
+}
+
+.theme-dark
+{
+
+    /* BORDERS AND BACKGROUNDS */
+    /*Main background primary back ground -> This applied to everything that is in the bg (also can  be thought of as the paint bucking your whole canvas )  */
+    --background-primary:            var(--bg0-dh);
+    
+    
+    /*  scroll bar better and visible ig (not sure wat this does yet */
+    --background-primary-alt:        var(--bg-dark);
+
+
+/*  Side bar and down panel color the panel that displays time and other stuff in the btto m */
+    --background-secondary:          var(--shadow);
+
+/*  Top bar -> tab bar on the top color*/
+    --background-secondary-alt:      var(--bg-dark);
+    /*  Color of all the lines -> tab lines , Bottom staus bar lines , and windows seperatotr*/
+    --background-modifier-border:    var(--text--veryfade);
+
+    /*  Not sure what this applies to*/
+    --background-accent:             var(--dim-yellow);
+
+            /* The line that appears with cursor this is not set to custom color named shadow-cur*/
+            /* offers sensible contrast  */
+    --cursor-line-background:        var(--shadow-cur);
+
+
+
+
+/* text styles*/
+/* MAKE SURE TO APPLY STYLES HERE */
+/* main wriiten like the text you can read it just applies to that for now  */
+    --text-normal:                   var(--text-offyellowish);
+/* Applies to line numbers in vim mode , arrows in side bar and X sign in aliases  */
+    --text-faint:                    var(--dim-green);
+
+    /* interface text basically */
+    /*   tab Titles , side bar titles, property titles */
+    --text-muted:                    var(--text-offyellowish);
+
+    /* Headings in order */
+/*  here i have set in the hireachy in such a way that  my tiny brain can comprehend what heading is just y looking at the color  
+colors goes down the hue and sat gradient from orange to hues down and end up at purple*/
+
+    --h1-color:                      var(--faded-orange);
+    --h2-color:                      var(--dim-yellow);
+    --h3-color:                      var(--dim-green);
+    --h4-color:                      var(--dim-aqua);
+    --h5-color:                      var(--dim-blue);
+    --h6-color:                      var(--dim-purple);
+
+
+
+    /* NOT SURE WHAT THIS MEANS RIGHT NOW */
+/*  basic highlight color ig*/
+    --text-highlight-bg:             var(--faded-red);
+    --text-highlight-fg:             var(--fadded-green);
+
+/* TODO: change this to better color later */
+    /*  This is the links and THe color of links when hoevered */
+    /* example is https://www/.youtube.com */
+    --text-accent:                   var(--faded-red);
+    --text-accent-hover:             var(--faded-yellow);
+
+/*  Text that is the link in your file*/
+    --tag-color:                     var(--bg_yellow);
+/* applies the color to the background of your file */
+    --tag-background:                var(--bg1-dark);
+    /* When the links  are hoevered just make sure the  bg-colors are not there */
+    --tag-background-hover:          var(--bg0-dh);
+
+
+/*  Name is clear but is not applied*/
+    --titlebar-text-color-focused:   var(--bg_green);
+
+    /* Is set but not working as expected see this later as well */
+    --inline-title-color:            var(--fadded-orange);
+
+    /* text color will be pure white or close to white when its bold to make it stand out in the document and show emphysis -> guide the eye naturally to the text */
+    /* bold color -> set to some sensible color  */
+    --bold-color:                    var(--faded-green);
+
+
+    /* ideas : text will be dim when its italic */
+/* set to some sensible color as well */
+    --italic-color:                  var(--faded-purple);
+
+/* TO be changed / reconsidered lateer */
+    /* normal color of the check box shown */
+    --checkbox-color:                var(--light-yellow);
+    --checkbox-color-hover:          var(--bg2-dark);
+    --checkbox-border-color:         var(--bright-red);
+    /* check box border color when hovered */
+    --checkbox-border-color-hover:   var(--light-aqua);
+    /* after somethingis checked in the checklist it will take this color */
+    --checklist-done-color:          var(--light-red);
+
+
+
+
+    /* Table header bg*/
+/* looks very ugly when set to other color */
+    --table-header-background:       var(--bg2-dark);
+/* colored when hoevered */
+    --table-header-background-hover: var(--bg0-dh);
+/* next 2 values can be changed to make thhe table more readable and can be changed with hover for bettter readability as well 
+
+check these later to make sure to change these 
+ */
+    --table-row-even-background:    var(--bg-dark);
+    --table-row-odd-background:      var(--bg-dark);
+/* hover color when you hover over the table enteries  */
+    --table-row-background-hover:    var(--bg0-dh);
+
+
+/* When you select the text */
+/* make sure this is just indicator and not too strong but you can see what text you are selecting also 
+so a good balance between contrast and readability is very good */
+    --text-selection:                var(--dim-red);
+    --flashing-background:           var(--faded-green);
+
+
+
+/* 
+
+|___________|  
+|    CODE Styles   |
+|__________|
+(\__/) || 
+(•ㅅ•) || 
+/     づ
+
+*/
+
+    /* TODO: -> change this later */
+/* Code Styles */
+    --code-normal:                   var(--bg-light);
+    /* Code background */
+    /* it can be useful to change this to other color so that i can make this better */
+    /* comments */
+    --code-comment-color: var(--text--veryfade) !important;
+
+    /* background color of the code block  */
+    /* custom defined color that does not come in the gruvbox but is suitable for this theme  */
+    --code-background:               var(--shadow-var1);
+
+    /* this line was not being used here */
+     /* --codeblock-background: var(--bg0-dh) !important; */
+    --codeblock-color: var(--faded-aqua);
+
+/* not working here */
+    /* --inline-code-background: var(--bg_green); */
+    --inline-code-color: var(--faded-red);
+    /* variable color -- planned to keep it the same for better readability */
+    --code-variable-color: var(--faded-blue);
+    /* color of the functions (might change this lateer) */
+    --code-function-color: var(--dim-red);
+/* i thnk these are the built in krywords  */
+/* like for and in in python  */
+    --code-builtin-color: var(--bg_green);
+/* string colors  */
+    --code-string-color: var(--text-offwhite-faded);
+    /* operator color */
+    --code-operator-color: var(--faded-orange);
+
+
+    
+
+
+
+
+
+
+
+
+/* i dont use this mermaid notes  */
+/*  setting this to snesible defalults */
+    --mermaid-note:                  var(--faded-red);
+    --mermaid-actor:                 var(--bg-dark);
+    --mermaid-loopline:              var(--dim-red);
+
+
+    /* Icons*/
+    --icon-color-hover:              var(--faded-orange);
+    --icon-color-focused:            var(--faded-red);
+
+
+    /*  Text left hover bar */
+    --nav-item-color-hover:          var(--dim-green);
+    /* item color */
+    --nav-item-color-active:         var(--faded-red);
+/* not sure what this applies to but this is set to sensible colors here */
+    --nav-file-tag:                 var(--faded-yellow);
+
+
+
+
+
+
+    /*  GRAPH STYLES*/
+    /* 
+                                    [[*]] ------> [[*]]                         
+                                                                \                   [[*]]              /
+                                                                    \           
+                                                                        [[*]]
+                                                                    /
+                                                                /       
+                                                        [[*]]
+    */
+    /*color of graph lines*/
+    --graph-line:                    var(--faded-green);
+    /* color of child nodes that are attached to parrent node */
+    --graph-node:                    var(--light-orange);
+    /* The main parent node icon color */
+    --graph-node-tag:                var(--faded-red);
+    /* files that are attatched in the node  */
+    /* i intend to keep this number to the minimum so this is a non issue for me to choose this to any color  */
+    /*CHOSE blue here to make sure i can eliminate any if i added them and the vault needs cleaning  */
+    --graph-node-attachment:         var(--dim-blue);
+
+
+
+    /* 
+    | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
+|---|---|---|---|---|---|---|
+| | | | 22 | 23 | 24 | 25 |
+| 26 | 27 | 28 | 29 | 30 | | |
+    */
+
+/* dont use the calender  */
+/*  will be set to sensible defuaults */
+    --calendar-hover:                var(--faded-red);
+    --calendar-background-hover:     var(--bg0-dh);
+    --calendar-week:                 var(--faded-orange);
+    --calendar-today:                var(--dim-orange);
+
+
+
+
+    /* dont use dataview yet  */
+    /* setiing it to sensible defaults */
+    --dataview-key:                  var(--bg4-light);
+    --dataview-key-background:       var(--faded-red);
+    --dataview-value:                var(--grey1-dark);
+    --dataview-value-background:     var(var(--faded-green)));
+
+/* Top tab when selected or when the tab in focused this color will appear on top */
+    --tab-text-color-focused-active:         var(--dim-green);
+/* text color the one which is in active use  */
+    --tab-text-color-focused-active-current: var(--light-red);
+
+
+
+}
+
+
+
+
+
+
+
+/* LIGHT THEME  */
+/* Duplicate and adjust styles */
+
+
+
+
+
+
+
+
+.theme-light
+{
+
+
+
+    /*This controls the backgrounds and the main interface of the app   */
+    /* BORDERS AND BACKGROUNDS */
+    /*Main background primary back ground -> This applied to everything that is in the bg (also can  be thought of as the paint bucking your whole canvas )  */
+    --background-primary:            var(--text-offwhite);
+    
+    
+    /*  scroll bar better and visible ig (not sure wat this does yet */
+    --background-primary-alt:        var(--text-white);
+
+
+/*  Side bar and down panel color the panel that displays time and other stuff in the btto m */
+    --background-secondary:          var(--text-offwhite);
+
+/*  Top bar -> tab bar on the top color*/
+    --background-secondary-alt:      var(--text--faded);
+    /*  Color of all the lines -> tab lines , Bottom staus bar lines , and windows seperatotr*/
+    --background-modifier-border:    var(--bg-dark);
+
+    /*  Not sure what this applies to*/
+    --background-accent:             var(--text--faded);
+
+
+
+/* Cursor line */
+            /* The line that appears with cursor this is not set to custom color named shadow-cur*/
+            /* offers sensible contrast  */
+    --cursor-line-background:        var(--text-white);
+
+
+
+
+/* text styles*/
+/* MAKE SURE TO APPLY STYLES HERE */
+/* main wriiten like the text you can read it just applies to that for now  */
+    --text-normal:                   var(--bg-dark);
+/* Applies to line numbers in vim mode , arrows in side bar and X sign in aliases  */
+    --text-faint:                    var(--dim-red);
+
+    /* interface text basically */
+    /*   tab Titles , side bar titles, property titles */
+    --text-muted:                    var(--bg0-dh);
+
+    /* Headings in order */
+/*  here i have set in the hireachy in such a way that  my tiny brain can comprehend what heading is just y looking at the color  
+colors goes down the hue and sat gradient from orange to hues down and end up at purple*/
+
+    --h1-color:                      var(--dark-orange);
+    --h2-color:                      var(--dark-yellow);
+    --h3-color:                      var(--dark-green);
+    --h4-color:                      var(--dark-aqua);
+    --h5-color:                      var(--dark-blue);
+    --h6-color:                      var(--dark-purple);
+
+
+
+    /* not applying to anything */
+/*  basic highlight color ig*/
+    --text-highlight-bg:             var(--faded-yellow);
+    --text-highlight-fg:             var(--fadded-green);
+
+
+
+/* TODO: change this to better color later */
+    /*  This is the links and THe color of links when hoevered */
+    /* example is https://www/.youtube.com */
+    --text-accent:                   var(--faded-red);
+    --text-accent-hover:             var(--dark-yellow);
+
+
+
+
+/* Tags */
+/*  Text that is the link in your file*/
+    --tag-color:                     var(--bg-light);
+/* applies the color to the background of your file */
+    --tag-background:                var(--dim-green);
+    /* When the links  are hoevered just make sure the  bg-colors are not there */
+    --tag-background-hover:          var(--text--faded);
+
+
+
+
+/* not applied to any thing   or not sure */
+/*  Name is clear but is not applied*/
+    --titlebar-text-color-focused:   var(--dim-orange);
+    /* Is set but not working as expected see this later as well */
+    --inline-title-color:            var(--fadded-orange);
+
+
+
+    /* text color will be pure white or close to white when its bold to make it stand out in the document and show emphysis -> guide the eye naturally to the text */
+    /* bold color -> set to some sensible color  */
+    --bold-color:                    var(--dark-green);
+
+
+    /* ideas : text will be dim when its italic */
+/* set to some sensible color as well */
+    --italic-color:                  var(--dark-purple);
+
+/* TO be changed / reconsidered lateer */
+    /* normal color of the check box shown */
+    --checkbox-color:                var(--dark-yellow);
+    --checkbox-color-hover:          var(--grey1-light);
+    --checkbox-border-color:         var(--dark-red);
+    /* check box border color when hovered */
+    --checkbox-border-color-hover:   var(--dark-aqua);
+    /* after somethingis checked in the checklist it will take this color */
+    --checklist-done-color:          var(--dark-red);
+
+
+
+
+    /* Table header bg*/
+/* looks very ugly when set to other color */
+    --table-header-background:       var(--text-offwhite);
+/* colored when hoevered */
+    --table-header-background-hover: var(--text--faded);
+/* next 2 values can be changed to make thhe table more readable and can be changed with hover for bettter readability as well 
+check these later to make sure to change these 
+ */
+    --table-row-even-background:    var(--text-offwhite);
+    --table-row-odd-background:      var(--text-offwhite);
+/* hover color when you hover over the table enteries  */
+    --table-row-background-hover:    var(--dark-aqua);
+
+
+
+
+
+
+/* When you select the text */
+/* make sure this is just indicator and not too strong but you can see what text you are selecting also 
+so a good balance between contrast and readability is very good */
+    --text-selection:                var(--faded-yellow);
+    --flashing-background:           var(--faded-green);
+
+
+
+/* 
+
+|___________|  
+|    CODE Styles   |
+|__________|
+
+
+*/
+
+    /* TODO: -> change this later */
+/* Code Styles */
+
+/* not applying anything to anything */
+    --code-normal:                   var(--bg0-dh);
+    /* Code background */
+    /* it can be useful to change this to other color so that i can make this better */
+    /* comments */
+    --code-comment-color: var(--dim-red) !important;
+
+    /* background color of the code block  */
+    /* custom defined color that does not come in the gruvbox but is suitable for this theme  */
+    --code-background:               var(--interface-light1);
+
+    /* this line was not being used here */
+     /* --codeblock-background: var(--bg0-dh) !important; */
+    --codeblock-color: var(--dark-purple);
+
+/* not working here */
+    /* --inline-code-background: var(--bg_green); */
+    --inline-code-color: var(--dark-red);
+    /* variable color -- planned to keep it the same for better readability */
+    --code-variable-color: var(--dark-blue);
+    /* color of the functions (might change this lateer) */
+    --code-function-color: var(--dark-red);
+/* i thnk these are the built in krywords  */
+/* like for and in in python  */
+    --code-builtin-color: var(--dark-green);
+/* string colors  */
+    --code-string-color: var(--bg0-dh);
+    /* operator color */
+    --code-operator-color: var(--dark-orange);
+
+
+    
+
+
+
+
+
+
+
+
+/* i dont use this mermaid notes  */
+/*  setting this to snesible defalults */
+    --mermaid-note:                  var(--faded-red);
+    --mermaid-actor:                 var(--bg-dark);
+    --mermaid-loopline:              var(--dim-red);
+
+
+    /* Icons*/
+    --icon-color-hover:              var(--dim-red);
+    --icon-color-focused:            var(--dim-red);
+
+
+    /*  Text left hover bar */
+    --nav-item-color-hover:          var(--dim-green);
+    /* item color */
+    --nav-item-color-active:         var(--dim-red);
+/* not sure what this applies to but this is set to sensible colors here */
+    --nav-file-tag:                 var(--faded-yellow);
+
+
+
+
+
+
+    /*  GRAPH STYLES*/
+    /*color of graph lines*/
+    --graph-line:                    var(--dark-red);
+    /* color of child nodes that are attached to parrent node */
+    --graph-node:                    var(--dark-orange);
+    /* The main parent node icon color */
+    --graph-node-tag:                var(--dark-red);
+    /* files that are attatched in the node  */
+    /* i intend to keep this number to the minimum so this is a non issue for me to choose this to any color  */
+    /*CHOSE blue here to make sure i can eliminate any if i added them and the vault needs cleaning  */
+    --graph-node-attachment:         var(--dark-blue);
+
+
+
+
+
+
+    /* 
+    | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
+|---|---|---|---|---|---|---|
+| | | | 22 | 23 | 24 | 25 |
+| 26 | 27 | 28 | 29 | 30 | | |
+    */
+
+/* dont use the calender  */
+/*  will be set to sensible defuaults */
+    --calendar-hover:                var(--faded-red);
+    --calendar-background-hover:     var(--interface-light0-hard);
+    --calendar-week:                 var(--faded-orange);
+    --calendar-today:                var(--dim-orange);
+
+
+
+
+    /* dont use dataview yet  */
+    /* setiing it to sensible defaults */
+    --dataview-key:                  var(--bg4-light);
+    --dataview-key-background:       var(--faded-red);
+    --dataview-value:                var(--grey1-dark);
+    --dataview-value-background:     var(var(--faded-green)));
+
+/* Top tab when selected or when the tab in focused this color will appear on top */
+    --tab-text-color-focused-active:         var(--dark-green);
+/* text color the one which is in active use  */
+    --tab-text-color-focused-active-current: var(--dark-red);
+
+
+
+}
+
+
+
+
+
+/* .theme-light
+{
+    --color-red-rgb:                 var(--faded-red_x);
+    --color-red:                     var(--faded-red);
+    --color-purple-rgb:              var(--faded-purple_x);
+    --color-purple:                  var(--faded-purple);
+    --color-green-rgb:               var(--faded-green_x);
+    --color-green:                   var(--faded-green);
+    --color-cyan-rgb:                var(--neutral-blue_x);
+    --color-cyan:                    var(--neutral-blue);
+    --color-blue-rgb:                var(--faded-blue_x);
+    --color-blue:                    var(--faded-blue);
+    --color-yellow-rgb:              var(--neutral-yellow_x);
+    --color-yellow:                  var(--neutral-yellow);
+    --color-orange-rgb:              var(--faded-yellow_x);
+    --color-orange:                  var(--faded-yellow);
+    --color-pink-rgb:                var(--faded-purple_x);
+    --color-pink:                    var(--faded-purple);
+
+    --background-primary:            var(--light0-hard);
+    --background-primary-alt:        var(--light0-hard);
+    --background-secondary:          var(--light1);
+    --background-secondary-alt:      var(--light1);
+    --background-modifier-border:    var(--light2);
+    --background-accent:             var(--light0-soft);
+
+    --cursor-line-background:        rgba(var(--light1_x), 0.5);
+
+    --text-normal:                   var(--dark-text);
+    --text-faint:                    var(--dark-text-faint);
+    --text-muted:                    var(--dark-text-muted);
+
+    --h1-color:                      var(--faded-red);
+    --h2-color:                      var(--faded-yellow);
+    --h3-color:                      var(--faded-green);
+    --h4-color:                      var(--faded-aqua);
+    --h5-color:                      var(--faded-blue);
+    --h6-color:                      var(--faded-purple);
+
+    --text-highlight-bg:             var(--faded-yellow);
+    --text-highlight-fg:             var(--dark-text);
+
+    --text-accent:                   var(--neutral-yellow);
+    --text-accent-hover:             var(--faded-yellow);
+
+    --tag-color:                     var(--faded-aqua);
+    --tag-background:                var(--light1);
+    --tag-background-hover:          rgba(var(--light1_x), 0.6);
+
+    --titlebar-text-color-focused:   var(--bright-red);
+
+    --inline-title-color:            var(--neutral-yellow);
+
+    --bold-color:                    var(--faded-yellow);
+    --italic-color:                  var(--faded-yellow);
+
+    --checkbox-color:                var(--light4);
+    --checkbox-color-hover:          var(--light4);
+    --checkbox-border-color:         var(--light4);
+    --checkbox-border-color-hover:   var(--light4);
+    --checklist-done-color:          rgba(var(--dark2_x), 0.4);
+
+    --table-header-background:       rgba(var(--light3_x), 0.4);
+    --table-header-background-hover: var(--light2);
+    --table-row-even-background:     rgba(var(--light1_x), 0.2);
+    --table-row-odd-background:      rgba(var(--light1_x), 0.7);
+    --table-row-background-hover:    var(--light2);
+
+    --text-selection:                rgba(var(--neutral-red_x), 0.6);
+    --flashing-background:           rgba(var(--neutral-red_x), 0.3);
+
+    --code-normal:                   var(--neutral-blue);
+    --code-background:               var(--light1);
+
+    --mermaid-note:                  var(--neutral-blue);
+    --mermaid-actor:                 var(--light3);
+    --mermaid-loopline:              var(--faded-blue);
+
+    --icon-color-hover:              var(--neutral-red);
+    --icon-color-focused:            var(--neutral-blue);
+
+    --nav-item-color-hover:          var(--neutral-red);
+    --nav-item-color-active:         var(--faded-blue);
+    --nav-file-tag:                  rgba(var(--faded-blue_x), 0.9);
+
+    --graph-line:                    var(--light3);
+    --graph-node:                    var(--gray);
+    --graph-node-tag:                var(--faded-red);
+    --graph-node-attachment:         var(--neutral-green);
+
+    --calendar-hover:                var(--neutral-red);
+    --calendar-background-hover:     var(--light1);
+    --calendar-week:                 var(--neutral-red);
+    --calendar-today:                var(--neutral-red);
+
+    --dataview-key:                  var(--text-faint);
+    --dataview-key-background:       rgba(var(--faded-red_x), 0.3);
+    --dataview-value:                var(--text-faint);
+    --dataview-value-background:     rgba(var(--neutral-green_x), 0.2);
+
+    --tab-text-color-focused-active:         var(--neutral-yellow);
+    --tab-text-color-focused-active-current: var(--neutral-red);
+} */
+
+
+
+/* This Works flawlessly for the code block color changing */
+
+/* You can change   the way code block colors change by using these styles*/
+/* code styles i am entering myself here from other file make sure these work */
+.cm-link, .cm-variable, .cm-variable-2, .cm-variable-3 {color: var(--code-variable-color)!important;} /* variable */
+.cm-def.cm-hmd-codeblock, .token.function{
+    color: var(--code-function-color)!important;
+    text-emphasis: italic;
+} /* function name in declaration */
+.cm-builtin, .cm-property, .cm-attribute, .cm-type, .cm-keyword, .token.keyword, .token.builtin, .token.property {color: var(--code-builtin-color)!important;} /* built-in functions, methods */
+.cm-hmd-codeblock.cm-string, .cm-hmd-codeblock.cm-number, .token.string, .token.number {color: var(--code-string-color)!important;} /* strings and numbers */
+.cm-operator, .token.operator {color: var(--code-operator-color)!important;} /* operators */
+.cm-hmd-codeblock {color: var(--codeblock-color);} /* codeblock */
+.cm-comment, .token.comment {color: var(--code-comment-color)!important;} /* comment */
+
+
+
+table
+{
+    border: 1px solid var(--background-secondary) !important;
+    border-collapse: collapse;
+}
+
+thead
+{
+    border-bottom: 2px solid var(--background-modifier-border) !important;
+}
+  
+th
+{
+    font-weight: 600 !important;
+    border: 1px solid var(--background-secondary) !important;
+}
+
+td
+{
+    border-left: 1px solid var(--background-secondary) !important;
+    border-right: 1px solid var(--background-secondary) !important;
+    border-bottom: 1px solid var(--background-secondary) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(even)
+{
+    background-color: var(--table-row-even-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(odd)
+{
+    background-color: var(--table-row-odd-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(even):hover,
+.markdown-rendered tbody tr:nth-child(odd):hover
+{
+    background-color: var(--table-row-background-hover) !important;
+}
+
+.markdown-rendered mark
+{
+    background-color: var(--text-highlight-bg) !important;
+    color: var(--text-highlight-fg) !important;
+}
+
+.markdown-rendered mark a
+{
+    color: var(--red) !important;
+    font-weight: 600;
+}
+
+.search-result-file-matched-text
+{
+    color: var(--text-highlight-fg) !important;
+}
+
+.cm-hashtag-begin:hover, .cm-hashtag-end:hover
+{
+    color: var(--text-accent);
+    /* background-color: var(--tag-background-hover); */
+    text-decoration: underline;
+}
+
+input[type=checkbox]
+{
+    border: 1px solid var(--checkbox-color);
+}
+
+input[type=checkbox]:checked
+{
+    background-color: var(--checkbox-color);
+    box-shadow: inset 0 0 0 2px var(--background-primary);
+}
+
+input[type=checkbox]:checked:after
+{
+    display: none;
+}
+
+code[class*="language-"],
+pre[class*="language-"]
+{
+    line-height: var(--line-height-tight) !important;
+}
+
+/* Keep highlight/marks the same between viewer and editor. */
+.cm-highlight
+{
+    color: var(--text-highlight-fg) !important;
+}
+
+/* Keep inline code the same between viewer and editor. */
+.cm-inline-code
+{
+    border-radius: var(--radius-s);
+    font-size: var(--code-size);
+    padding: 0.1em 0.25em;
+}
+
+/* Keep list bullet padding the same between viewer and editor. */
+.cm-formatting-list
+{
+    padding-right: 4px !important;
+}
+
+/*
+ * Keep sub-list indenting the same between viewer and editor.
+ * This assumes --list-indent is default at 2em.
+ */
+/*
+.cm-indent 
+{
+    text-indent: 1em !important;
+}
+*/
+
+.mermaid .note
+{
+    fill: var(--mermaid-note) !important;
+}
+
+.mermaid .actor
+{
+    fill: var(--mermaid-actor) !important;
+}
+
+.mermaid .loopLine
+{
+    stroke: var(--mermaid-loopline) !important;
+}
+
+.calendar .week-num
+{
+    color: var(--calendar-week) !important;
+}
+
+.calendar .today
+{
+    color: var(--calendar-today) !important;
+}
+
+.calendar .week-num:hover,
+.calendar .day:hover
+{
+    color: var(--calendar-hover) !important;
+    background-color: var(--calendar-background-hover) !important;
+}
+
+.markdown-embed-title
+{
+    color: var(--yellow);
+    font-weight: 600 !important;
+}
+
+.cm-active
+{
+    background-color: var(--cursor-line-background) !important;
+}
+
+.nav-file-tag
+{
+    color: var(--nav-file-tag) !important;
+}
+
+.is-flashing
+{
+    background-color: var(--flashing-background) !important;
+}
+
+.dataview.inline-field-key
+{
+    border-top-left-radius: var(--radius-s);
+    border-bottom-left-radius: var(--radius-s);
+    padding-left: 4px;
+    font-family: var(--font-monospace);
+    font-size: var(--font-smaller);
+    color: var(--dataview-key) !important;
+    background-color: var(--dataview-key-background) !important;
+}
+
+.dataview.inline-field-value
+{
+    border-top-right-radius: var(--radius-s);
+    border-bottom-right-radius: var(--radius-s);
+    padding-right: 4px;
+    font-family: var(--font-monospace);
+    font-size: var(--font-smaller);
+    color: var(--dataview-value) !important;
+    background-color: var(--dataview-value-background) !important;
+}
+
+.suggestion-highlight
+{
+    color: var(--bright-red);
+}
+
+
+
