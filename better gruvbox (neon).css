@@ -1,18 +1,4 @@
 
-/* 
-
-                                    __                        
-                                   /\ \                       
-   __      _ __   __  __   __  __  \ \ \____    ___    __  _  
- /'_ `\   /\`'__\/\ \/\ \ /\ \/\ \  \ \ '__`\  / __`\ /\ \/'\ 
-/\ \L\ \  \ \ \/ \ \ \_\ \\ \ \_/ |  \ \ \L\ \/\ \L\ \\/>  </ 
-\ \____ \  \ \_\  \ \____/ \ \___/    \ \_,__/\ \____/ /\_/\_\
- \/___L\ \  \/_/   \/___/   \/__/      \/___/  \/___/  \//\/_/
-   /\____/                                                    
-   \_/__/                                                     
-
-
-*/
 
 :root
 
@@ -21,8 +7,16 @@
     1 is for hard 
     higher values for hard  */
 
+    /* 2.1 Dark theme color variables */
+    --bg-dark-new  :  #1F1E1D ; 
+/*For basic text new color added  	 */
+--text-tinted :#ffd29c ;
+
+    
 
     /* 2.1 Dark theme color variables */
+
+    --new-bg-black : #1A1D1E ; 
     --bg0-dh:       #1d2021;
     --bg1-dark:       #3c3836;
     --bg-dark:        #282828;
@@ -44,11 +38,13 @@
     --grey1-dark:     #859289;
     --grey2-dark:     #9aa79d;
 
-    --faded-red:     #fb4934;
+    --faded-red:     #fb4834;
+    --faded-red-selection:     #f83f101d;
     --faded-orange:  #fe8019;
     --faded-yellow:  #fabd2f;
     --faded-green:   #b8bb26;
     --faded-aqua:    #8ec07c;
+    --faded-aqua-rgb :    rgb(142, 192, 124) ; 
     --faded-blue:    #83a598;
     --faded-purple:  #d3869b;
 
@@ -57,6 +53,7 @@
     --dim-yellow:    #d79921;
     --dim-green:     #98971a;
     --dim-aqua:      #689d6a;
+    --dim-aqua-dark:      #39583a;
     --dim-blue:      #458588;
     --dim-purple:    #b16286;
 
@@ -75,24 +72,20 @@
     --shadow-light:  #3c474d20;
 
 
+
     --text-offwhite: #fbf1c7;
     --text-offyellowish: #f2e5bc;
     --text-white: #f9f5d7;
     --text-offwhite-faded: #ebdbb2;
     --text--faded: #d5c4a1;
     --text--veryfade: #928374;
-
-    
-
-    
-
-
-
     --bg_visual_light:      #eaedc8;
     --bg_red_light:         #fbe3da;
     --bg_green_light:       #f0f1d2;
     --bg_blue_light:        #e9f0e9;
     --bg_yellow_light:      #faedcd;
+
+
 
     --fg-light:       #5c6a72;
 
@@ -113,24 +106,24 @@
     --light-dim-purple: #e092be;
 
 
-
- --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
-  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
-  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
-  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
-  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
-  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+ --dark-red: #9d0006;    
+  --dark-green: #79740e; 
+  --very-dark-green: #5c5809; 
+  --dark-yellow: #b57614;
+  --dark-blue: #076678; 
+  --dark-purple: #8f3f71;
+  --dark-aqua: #427b58;  
   --dark-orange: #af3a03;
 
 
 /* light colors */
-  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
-  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
-  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
-  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
-  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
-  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
-  --interface-light4: #a89988; /* light4: #a89988 */
+  --interface-light0-hard: #f9f5d7;
+  --interface-light0: #fbf1c7;
+  --interface-light0-soft: #f2e5bc; 
+  --interface-light1: #ebdbb2; 
+  --interface-light2: #d5c4a1; 
+  --interface-light3: #bdae93; 
+  --interface-light4: #a89988; 
 
 
    
@@ -141,9 +134,15 @@ body
     /* CURSOR gets its color from acent color too */
     /* accent was not being set in a way i wanted it to so i had to set it from the interface later experimentation can be done here to make sure i can override it  */
     /* use !important maybe to oveeride it and fix the issue */
-    --accent-h: 60; /* --neutral-green#98971a */
-    --accent-s: 71%;
-    --accent-l: 35%;
+
+    /* Making curosor color to Hsl values  */
+    /* hsl(61.19999999999999, 66.2%, 44.1%) us used here for green  */
+
+
+    --accent-h: 61.2 !important; 
+    --accent-s: 66.1% !important;
+    --accent-l: 24.1% !important;
+
 
     --link-decoration:                none;
     --link-decoration-hover:          none;
@@ -157,25 +156,29 @@ body
     --tag-radius:                     .5em;
 
     --tab-font-weight:                600;
-    --bold-weight:                    600;
+    --bold-weight:                    700;
 
-    --checkbox-radius:                0;
+    --checkbox-radius:                19px !important;
 
     /* --list-indent:                    2em; */
 
     --embed-border-left: 6px double var(--interactive-accent);
 }
 
+
+
+
+
 .theme-dark
 {
 
     /* BORDERS AND BACKGROUNDS */
     /*Main background primary back ground -> This applied to everything that is in the bg (also can  be thought of as the paint bucking your whole canvas )  */
-    --background-primary:            var(--bg0-dh);
+    --background-primary: #1A1D1E ;
     
     
     /*  scroll bar better and visible ig (not sure wat this does yet */
-    --background-primary-alt:        var(--bg-dark);
+    --background-primary-alt:      #1a1d1e;
 
 
 /*  Side bar and down panel color the panel that displays time and other stuff in the btto m */
@@ -191,7 +194,44 @@ body
 
             /* The line that appears with cursor this is not set to custom color named shadow-cur*/
             /* offers sensible contrast  */
-    --cursor-line-background:        var(--shadow-cur);
+    --cursor-line-background : var(--shadow-var1) ;
+
+
+
+
+
+    /*  
+        -------------
+               - 
+               - 
+               - 
+               - 
+               -  
+               -  
+               -  
+               - 
+        -------------
+    
+    
+    */
+/* Caret Styles  */
+
+/*  Caret color whne single */
+.markdown-source-view.mod-cm6 .cm-content {
+  width: 80rem !important ;
+  caret-color: #fabd2f !important ; 
+  min-height: unset;
+  padding: 0;
+}
+
+/* Not sure what this applies to  */
+.markdown-source-view.mod-cm6 .cm-table-widget.has-selection .cm-content {
+  caret-color: rgb(0, 255, 21) !important;
+  width: 30rem !important ;
+}
+
+
+
 
 
 
@@ -292,8 +332,7 @@ so a good balance between contrast and readability is very good */
 
 /* 
 
-|___________|  
-|    CODE Styles   |
+
 |__________|
 (\__/) || 
 (•ㅅ•) || 
@@ -332,6 +371,25 @@ so a good balance between contrast and readability is very good */
     /* operator color */
     --code-operator-color: var(--faded-orange);
 
+
+    /* Check this for code colors */
+        /* Not sure  */
+      /* Code
+  --code-white-space: pre-wrap;
+  --code-radius: var(--radius-s);
+  --code-size: var(--font-smaller);
+  --code-background: var(--background-primary-alt);
+  --code-normal: var(--text-muted);
+  --code-comment: var(--text-faint);
+  --code-function: var(--color-yellow);
+  --code-important: var(--color-orange);
+  --code-keyword: var(--color-pink);
+  --code-operator: var(--color-red);
+  --code-property: var(--color-cyan);
+  --code-punctuation: var(--text-muted);
+  --code-string: var(--color-green);
+  --code-tag: var(--color-red);
+  --code-value: var(--color-purple); */
 
     
 
@@ -420,12 +478,794 @@ so a good balance between contrast and readability is very good */
 
 
 
+
+
+
+
+
+  /* Dragging  Files from One pane to another */
+  /* Dragging  */
+  --drag-ghost-background: var(--bg0-dh);
+  --drag-ghost-text-color: var(--text-offyellowish) !important ;
+
+
+
+
+
+
+  /*Panes In  the active Windows and dividers*/
+ /* Dividers â€” between panes */
+  --divider-color: var(--bg2-dark);
+  --divider-color-hover: var(--dark-green);
+  --divider-width: 0.6px !important ;
+  --divider-width-hover: 3px;
+  --divider-vertical-height: calc(100% - var(--header:var(--bold-weight)-height));
+
+
+
+
+
+/* Not sure about this  */
+/* Collapse icons */
+  --collapse-icon-color: var(--text-accent);
+  --collapse-icon-color-collapsed: var(--text-accent);
+
+ /* Cursor */
+  --cursor: :default !important;
+  --cursor-link: cell;
+
+
+
+
+  /* Embeds */
+  --embed-max-height: 4000px;
+  --embed-canvas-max-height: 400px;
+  --embed-background: inherit;
+  --embed-border-left: 2px solid var(--interactive-accent);
+  --embed-border-right: none;
+  --embed-border-top: none;
+  --embed-border-bottom: none;
+  --embed-padding: 0 0 0 var(--size-4-6);
+  --embed-font-style: inherit;
+  /* Blocks */
+  --embed-block-shadow-hover: 0 0 0 1px var(--background-modifier-border),
+	inset 0 0 0 1px var(--background-modifier-border);
+
+
+
+ /* File layout */
+  --file-line-width: 700px;
+  --file-folding-offset: 24px;
+  --file-margins: var(--size-4-8);
+  --file-header-font-size: var(--font-ui-small);
+  --file-header-font-weight: 400;
+  --file-header-border: var(--border-width) solid transparent;
+  --file-header-justify: center;
+
+
+
+ /* Relative font sizes */
+  --font-smallest: 0.8em;
+  --font-smaller: 0.875em;
+  --font-small: 0.933em;
+  /* UI font sizes */
+  --font-ui-smaller: 12px;
+  --font-ui-small: 13px;
+  --font-ui-medium: 15px;
+  --font-ui-large: 20px;
+  /* Font weights */
+  --font-thin: 100;
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+
+
+
+/* Footnotes */
+  --footnote-size: var(--font-smaller);
+
+
+/* Graphs */
+/* 
+  --graph-controls-width: 240px;
+  --graph-text: var(--text-normal);
+  --graph-line: var(--color-base-35, var(--background-modifier-border-focus));
+  --graph-node: var(--text-muted);
+  --graph-node-unresolved: var(--text-faint);
+  --graph-node-focused: var(--text-accent);
+  --graph-node-tag: var(--color-green);
+  --graph-node-attachment: var(--color-yellow); */
+
+
+
+
+
+  /* Headings */
+  --heading-formatting: var(--text-faint);
+  --heading-spacing: calc(var(--p-spacing) * 2.5);
+  --h1-color: var(--faded-red);
+  --h2-color:  var(--faded-orange);
+  --h3-color:  var(--faded-yellow);
+  --h4-color: var(--faded-green);
+  --h5-color: var(--faded-aqua);
+  --h6-color: var(--faded-blue);
+  /* Heading font (Now Set to Harding text web regular  )  */
+  --h1-font: "Harding Text Web Regular" !important;
+  --h2-font: "Harding Text Web Regular" !important;
+  --h3-font: "Harding Text Web Regular" !important;
+  --h4-font: "Harding Text Web Regular" !important;
+  --h5-font: "Harding Text Web Regular" !important;
+  --h6-font: "Harding Text Web Regular" !important;
+
+  /* Heading line height  */
+  /* Adjusted to have better readability between normal text and the headings    */
+  --h1-line-height: 1.6;
+  --h2-line-height: 1.6;
+  --h3-line-height: 1.6;
+  --h4-line-height: 1.6;
+  --h5-line-height: 1.6;  
+  --h6-line-height: 1.5;  
+
+  /* size of every heading adjusted  */
+  --h1-size: 1.85em;
+  --h2-size: 1.71em;
+  --h3-size: 1.65em;
+  --h4-size: 1.55em;
+  --h5-size: 1.38em;
+  --h6-size: 1.29em;
+
+  /* Made all teh heading italic for readability purposes  */
+  --h1-style: italic;
+  --h2-style: italic;
+  --h3-style: italic;
+  --h4-style: italic;
+  --h5-style: italic;
+  --h6-style: italic;
+
+
+  --h1-variant: normal;
+  --h2-variant: normal;
+  --h3-variant: normal;
+  --h4-variant: normal;
+  --h5-variant: normal;
+  --h6-variant: normal;
+
+  /* Weight of the heading font  */
+  /* change according to the font you are using   */
+  --h1-weight: 700;
+  --h2-weight: 600;
+  --h3-weight: 600;
+  --h4-weight: 600;
+  --h5-weight: 600;
+  --h6-weight: 600;
+
+
+
+  /* Top tabs  , and icons header */
+/* File names Top header  */
+ /* View header */
+  --header-height: 35px;
+
+
+
+/*  line break line */
+/* Br line  */
+    /* Horizontal rules */
+  --hr-color: #fb4934 ;
+  --hr-thickness: 2px;
+
+
+
+  /* Icons */
+  --icon-size: var(--icon-m);
+  --icon-stroke: var(--icon-m-stroke-width);
+  --icon-xs: 14px;
+  --icon-s: 18px;
+  --icon-m: 20px;
+  --icon-l: 18px;
+  --icon-xl: 32px;
+  --icon-xs-stroke-width: 6px !important;
+  --icon-s-stroke-width: 3px !important;
+  --icon-m-stroke-width: 2.25px;
+  --icon-l-stroke-width: 2.25px;
+  --icon-xl-stroke-width: 2.25px;
+  --icon-color: var(--faded-orange );
+  --icon-color-hover: var(--faded-blue );
+  --icon-color-active: var(--dark-green);
+  --icon-color-focused: var(--faded-red);
+  /* 0.85 was the default here  */
+  /* with some colors it looks better */
+  --icon-opacity: 1;
+  --icon-opacity-hover: 0.9;
+  --icon-opacity-active: 1;
+  --clickable-icon-radius: var(--radius-s);
+
+
+
+  /* Tab key Indent  , Left side bar indent  */
+   /* Indentation guide */
+  --indentation-guide-width: 2px;
+  --indentation-guide-width-active: 4px;
+/* Indent colors in Rgb */
+  --indentation-guide-color : var(--faded-aqua ) ;
+  --indentation-guide-color-active: var(--faded-green);
+  --indentation-guide-editing-indent: 1em;
+
+
+/* Title of the maarkdown page  */
+/* Inline title */
+/* H1 heading color */
+  --inline-title-color: var(--faded-blue);
+  /* Heading Font  , Title Heading  */
+  --inline-title-font: 'Harding Text Web Regular'  !important;
+
+  --inline-title-line-height: var(--h1-line-height);
+  --inline-title-size: var(--h1-size);
+  --inline-title-style: var(--h1-style);
+  --inline-title-variant: var(--h1-variant);
+  --inline-title-weight: var(--h1-weight);
+  --inline-title-margin-bottom: 0.5em;
+
+
+  /* Not sure where this is used  */
+   /* Inputs */
+  /* --input-height: 30px;
+  --input-radius: 5px;
+  --input-font-weight: var(--font-normal);
+  --input-border-width: 1px;
+ */
+
+ /* Italic */
+ /*Blue color for italic is very suiting and works well for now   */
+  --italic-color: var(--faded-blue);
+  --italic-weight: inherit;
+
+
+
+/* Line heights */
+  --line-height-normal: 1.45;
+  --line-height-tight: 1.3;
+
+
+
+ /* Links */
+/* Internal links -> links to other notes */
+  --link-color: var(--text-accent)!important;
+  --link-color-hover: var(--faded-green);
+  --link-decoration: underline !important;
+  --link-decoration-hover: underline !important  ;
+  /* Link decoration   */
+  --link-decoration-thickness: 0.1px !important;
+
+
+    /* External links are the links that are to external sites or services  */
+    /* Example www.youtube.com*/
+  --link-external-color: var(--faded-red);
+  --link-external-color-hover: var(--faded-orange);
+  --link-external-decoration: underline;
+  --link-external-decoration-hover: underline;
+
+    /* Not sure  */
+  --link-external-filter: none;
+
+  /* Not sure  */
+  --link-unresolved-color: var(--text-accent);
+  --link-unresolved-opacity: 0.7;
+  --link-unresolved-filter: none;
+  --link-unresolved-decoration-style: solid;
+  --link-unresolved-decoration-color: hsla(var(--interactive-accent-hsl), 0.3);
+
+
+
+ /* Lists */
+  --list-indent: 2.15em;
+  /* list Height spacing */
+  --list-spacing: 0.045em;
+
+  /* List color markers */
+  --list-marker-color: var(--faded-red);
+  --list-marker-color-hover: var(--faded-green);
+  --list-marker-color-collapsed: var(--faded-orange);
+
+  --list-bullet-border: none;
+  --list-bullet-radius: 30%;
+  --list-bullet-size: 0.35em;
+  --list-bullet-transform: none;
+  --list-numbered-style: decimal;
+
+
+    /* Left Sidebar Navigation  */
+  /* File navigator */
+  --nav-item-size: var(--font-ui-small);
+/* sidebar files  -> names of files */
+  --nav-item-color: var(--faded-blue);
+  --nav-item-color-hover: var(--faded-orange);
+  --nav-item-color-active: var(--faded-green);
+
+  --nav-item-color-selected: var(--text-normal);
+  --nav-item-color-highlighted: var(--text-accent-hover);
+        /* hover for the background */
+  --nav-item-background-hover: #282828 ;
+/* Active item background */
+  --nav-item-background-active: rgba(40, 40, 40, 0.7);  
+
+  --nav-item-background-selected: hsla(var(--color-accent-hsl), 0.15);
+  --nav-item-padding: var(--size-4-1) var(--size-4-2) var(--size-4-1) var(--size-4-6);
+  --nav-item-parent-padding: var(--nav-item-padding);
+  --nav-item-children-padding-left: var(--size-2-2);
+  --nav-item-children-margin-left: var(--size-4-3);
+  --nav-item-weight: inherit;
+  --nav-item-weight-hover: inherit;
+  --nav-item-weight-active: inherit;
+  --nav-item-white-space: nowrap;
+  --nav-indentation-guide-width: var(--indentation-guide-width);
+  /* side bar indentaiton */
+  /* Dim green with rgb alpha channel altered */
+  --nav-indentation-guide-color: rgba(152, 151, 26, 0.6);
+  --nav-collapse-icon-color: var(--collapse-icon-color);
+  --nav-collapse-icon-color-collapsed: var(--text-faint);
+
+
+
+/* Properties */
+  /* Metadata */
+  --metadata-background: transparent;
+  --metadata-display-reading: block;
+  --metadata-display-editing: block;
+  --metadata-max-width: none;
+  --metadata-padding: var(--size-4-2) 0;
+  --metadata-border-color: var(--dim-green);
+  --metadata-border-radius: 0;
+  --metadata-border-width: 0;
+  --metadata-divider-color: var(--dim-green);
+  --metadata-divider-color-hover: transparent;
+  --metadata-divider-color-focus: transparent;
+  --metadata-divider-width: 0;
+  --metadata-gap: 3px;
+  --metadata-property-padding: 0;
+  --metadata-property-radius: 6px;
+  --metadata-property-background: transparent;
+  --metadata-property-background-hover: transparent;
+  --metadata-property-background-active: var(--background-modifier-hover);
+  --metadata-label-background-hover: transparent;
+  /* Labels Names */
+  --metadata-label-background-active: hsl(89.2, 28.2%, 25.1%) ;
+  --metadata-label-font-size: var(--font-smaller);
+  --metadata-label-font-weight: inherit;
+  --metadata-label-text-color: var(--text-muted);
+  --metadata-label-text-color-hover: var(--text-muted);
+  --metadata-label-width: 9em;
+  --metadata-input-height: calc(var(--font-text-size) * 1.75);
+  --metadata-input-text-color: var(--text-normal);
+  --metadata-input-font-size: var(--font-smaller);
+  --metadata-input-background: transparent;
+  --metadata-input-background-hover: transparent;
+  /* Labels filled   */
+  --metadata-input-background-active: hsl(119.2, 28.2%, 25.1%) ;
+    /* Font size of the labels */
+  --metadata-sidebar-label-font-size: var(--font-ui-small);
+  --metadata-sidebar-input-font-size: var(--font-ui-small);
+
+
+
+
+
+
+
+  /* Modals - e.g. settings, community themes, community plugins */
+  /* Not sure about the background primary */
+  --modal-background: var(--background-primary);
+  --modal-width: 90vw;
+  --modal-height: 85vh;
+  --modal-max-width: 1100px;
+  --modal-max-height: 1000px;
+  --modal-max-width-narrow: 800px;
+  --modal-border-width: 0.5em ;
+  /* Cusstom Aqua Color on settings */
+  --modal-border-color: hsl(99.2, 22.2%, 45.1%);
+  --modal-radius: var(--radius-l);
+  --modal-community-sidebar-width: 280px;
+
+
+  /* Multi-select pills */
+  --pill-color: var(--text-muted);
+  --pill-color-hover: var(--text-normal);
+  --pill-color-remove: var(--text-faint);
+  --pill-color-remove-hover: var(--text-accent);
+  --pill-decoration: none;
+  --pill-decoration-hover: none;
+  --pill-background: transparent;
+  --pill-background-hover: transparent;
+  --pill-border-color: var(--dark-red);
+  --pill-border-color-hover: var(--background-modifier-border-hover);
+  --pill-border-width: var(--border-width);
+  --pill-padding-x: 0.65em;
+  --pill-padding-y: 0.25em;
+  --pill-radius: 2em;
+  --pill-weight: inherit;
+
+
+
+   /* PDF view */
+  --pdf-background: var(--text-muted) !important ;
+  --pdf-page-background: var(--dark-green ) !important;
+  /* Frist part contributes to the lines and second part to the actual shadow  */
+  /* The values to change are 0.6 and 0.2 ones   */
+  --pdf-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6), 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+
+  --pdf-spread-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  /* Side bar of PDF shadow  */
+  --pdf-sidebar-background: var(--background-primary) !important;
+  --pdf-thumbnail-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 8px rgba(0, 0, 0, 1.8);
+
+
+ /* Popovers - file previews */
+/* Linked notes preview  (contorl and hover for the preview )*/
+ /* Experimenting at 450px  */
+ /* How wide the preview should be (this looks for now) */
+  --popover-width: 750px !important;
+  --popover-height: 500px !important;
+  --popover-max-height: 70vh;
+
+  /* not changing these for now  */
+  --popover-pdf-width: 600px;
+  --popover-pdf-height: 800px;
+
+  --popover-font-size: var(--font-text-size);
+
+
+
+
+
+  /* Prompts - e.g. quick switcher, command palette */
+  --prompt-width: 700px !important;
+  --prompt-max-width: 80vw;
+  --prompt-max-height: 80vh;
+  --prompt-border-width: 6px !important;
+  --prompt-border-color: var(--dark-aqua) !important;
+
+/* command pallet suggestsion colors  */
+.suggestion-item.mod-complex .suggestion-title {
+ color : var(--faded-blue) !important ; 
+}
+
+/* Key stroke suggestions box in command pallet   */
+.suggestion-item.mod-complex .suggestion-hotkey {
+    color: var(--text-offwhite-faded)  !important;
+    font-weight: 800 !important;
+    border: solid 2.6px var(--dark-green) !important ; 
+    background-color: var(--bg-dark-new) !important;
+    font-size: var(--font-ui-small);
+    font-family: var(--font-interface);
+    padding: 2px 4px 2px 4px  !important;
+}
+
+/* selection hover for the items inside the command pallet   */
+.suggestion-item.is-selected {
+    background-color: var(--bg-dark) !important;
+}
+
+
+/* Instrctions on how to use the prompt box  */
+/* Navigation instrucions for the command pallet box  */
+
+.prompt-instructions {
+    border-top: 2.2px solid var(--text--veryfade);
+    user-select: none;
+    font-size: var(--font-ui-small);
+    color: var(--text-offyellowish);
+    background-color: #16181a !important;
+    padding: var(--size-4-2) !important;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--size-4-3);
 }
 
 
 
 
+/* Radius for everything here  */
+/* Globaal values only adjust here if necessary  */
+ /* Radiuses */
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --radius-xl: 16px;
 
+
+ 
+
+    /* Ribbon */
+  --ribbon-background: var(--background-secondary) !important ;
+  --ribbon-background-collapsed: var(--background-secondary) !impportant;
+  --ribbon-width: 37px;
+
+
+
+ /* Scrollbars */
+  --scrollbar-active-thumb-bg: var(--dark-green) !important;
+  --scrollbar-bg:  var(--dark-red) !important ;
+  --scrollbar-thumb-bg: var(--bg1-dark) !important ; 
+
+
+
+/* Not used yet  */
+/* Not sure where this is applied yet  */
+ /* Search */
+  --search-clear-button-color: var(--text-muted);
+  --search-clear-button-size: 13px;
+  --search-icon-color: var(--text-muted);
+  --search-icon-size: 18px;
+    --search-result-background: var(--background-primary);
+
+/* not applied yet  */
+  /* Sidebar */
+  --sidebar-markdown-font-size: calc(var(--font-text-size) * 0.9);
+  --sidebar-tab-text-display: none;
+
+
+/* Bottom status bar  */
+/* Status bar */
+  --status-bar-background: var(--background-secondary);
+  --status-bar-border-color: var(--dark-green);
+  --status-bar-border-width: 1px 0 0 1px;
+  --status-bar-font-size: var(--font-ui-smaller);
+  --status-bar-text-color: var(--text-offwhite-faded);
+  --status-bar-position: fixed;
+  --status-bar-radius: var(--radius-m) 0 0 0;
+  --status-bar-scroll-padding: calc(var(--status-bar-font-size) + 18px);
+
+/* other status bar styles  */
+/*Time int the status bar */
+.status-bar-item.plugin-obsidian-grandfather{
+    color : var(--dim-green) !important ; 
+    background-color : var(--background-primary) !important ; 
+    border: solid 1px var(--dark-green)  !important;
+}
+
+/* Word and char count on the status bar  */
+.status-bar-item.plugin-word-count{
+    color: var(--faded-blue) !important;
+    background-color: var(--bg0-dh) !important ; 
+    border: solid 1px var(--faded-aqua)  !important;
+}
+
+/*Created on  adn Upadted on dates in the status bar */
+.status-bar-item.plugin-notes-dater{
+    color : var(--faded-aqua) !important ; 
+    background-color:var(--bg-dark-new) !important;
+    border: solid 1px var(--text--veryfade)  !important;
+}
+
+
+
+/*Not applied */
+/* Sync */
+  --sync-avatar-color-current-user: transparent;
+  --sync-avatar-color-1: var(--color-red);
+  --sync-avatar-color-2: var(--color-orange);
+  --sync-avatar-color-3: var(--color-yellow);
+  --sync-avatar-color-4: var(--color-green);
+  --sync-avatar-color-5: var(--color-cyan);
+  --sync-avatar-color-6: var(--color-blue);
+  --sync-avatar-color-7: var(--color-purple);
+  --sync-avatar-color-8: var(--color-pink);
+
+
+
+
+
+/* Tabs */
+/*Tab that is active right now (BACKGROUND) color */
+  --tab-background-active: var(--very-dark-green) !important ;
+  /*tab text color inactve ones (WHEN TEHE APP IS NOT FOCUSED ) */
+  --tab-text-color: var(--text--veryfade) !important;
+/*color of the text inside the active tab*/
+  --tab-text-color-active: var(--text-offwhite-faded) !important ;
+/*tab text color when obsidian is in focus */
+  --tab-text-color-focused: var(--text-offwhite-faded);
+
+  --tab-text-color-focused-active: var(--dim-green);
+  --tab-text-color-focused-highlighted: var(--background-primary);
+  --tab-text-color-focused-active-current: var(--text-normal);
+  --tab-font-size: var(--font-ui-small);
+  --tab-font-weight: 600  !important;
+  --tab-container-background: var(--background-secondary);
+
+  /*Tab divider colors and other propreties */
+  --tab-divider-color: var(--very-dark-green);
+  --tab-outline-color: var(--bg3-dark );
+  --tab-outline-width: 2.5px;
+  --tab-curve: 12px;
+/* tab radius  */
+  --tab-radius: var(--radius-s);
+  --tab-radius-active: 6px 6px 0 0;
+  --tab-width: 200px;
+  --tab-max-width: 320px;
+
+
+
+/* Not applied yet -> TO DO */
+  /* Stacked tabs */
+  --tab-stacked-pane-width: 700px;
+  --tab-stacked-header-width: var(--header-height);
+  --tab-stacked-font-size: var(--font-ui-small);
+  --tab-stacked-font-weight: 400;
+  --tab-stacked-text-align: left;
+  --tab-stacked-text-transform: rotate(0deg);
+  --tab-stacked-text-writing-mode: vertical-lr;
+  --tab-stacked-shadow: -8px 0 8px 0 rgba(0, 0, 0, 0.05);
+
+
+
+
+  /* Tables */
+  /* overall background of the table  */
+  --table-background: transparent;
+  --table-border-width: 1px;
+
+  /* table borders  */
+  --table-border-color: var(--bg2-dark);
+  --table-white-space: break-spaces;
+/* Table header color  */
+  --table-header-background: var(--shadow);
+  /* table header hover background */
+  --table-header-background-hover: var(--bg-dark);
+  --table-header-border-width: 4px  ;
+  /* border header color  */
+  --table-header-border-color: var(--text-veryfaded);
+/* header font properties  */
+  --table-header-font: inherit;
+  --table-header-size: 1rem ;
+  --table-header-weight: var(--bold-weight);
+  --table-header-color: var(--dim-aqua);
+  --table-line-height: var(--line-height-tight);
+  --table-text-size: var(--font-text-size);
+  --table-text-color: var(--text-offyellowish);
+  --table-column-min-width: 6ch;
+  --table-column-max-width: none;
+
+
+  --table-column-alt-background: var(--table-background);
+  /* Side bar cover */
+  --table-column-first-border-width: 5px ;
+  --table-column-last-border-width: 5px ; 
+/* cells row hover background  */
+  --table-row-background-hover: var(--bg-dark);
+/* alt background for rows   */
+  --table-row-alt-background: var(--new-bg-black);
+/* alt background for rows hover  */
+  --table-row-alt-background-hover: var(--bg-dark);
+  /* Border at the end of the table  */
+  --table-row-last-border-width: 5px ;
+
+  /* todo */
+  /* set Hsla color here  */
+  --table-selection: var(--faded-red-selection) !important; 
+  --table-selection-blend-mode: var(--highlight-mix-blend-mode);
+  --table-selection-border-color: var(--very-dark-green);
+  /* table selection border radius and width */
+  --table-selection-border-width: 4px;
+  --table-selection-border-radius: 12px;
+
+
+  --table-cell-vertical-alignment: top;
+  --table-drag-handle-background: transparent;
+  --table-drag-handle-background-active: var(--table-selection-border-color);
+  --table-drag-handle-color: var(--faded-red);
+  --table-drag-handle-color-active: var(--text-on-accent);
+  --table-add-button-background: var(--bg-dark);
+  --table-add-button-border-width: 1px ;
+  --table-add-button-border-color: var(--dark-green);
+
+
+
+
+
+/* Tags */
+  --tag-size: var(--font-smaller);
+  --tag-color: var(--faded-red);
+  --tag-color-hover: var(--dim-blue);
+  --tag-decoration: none;
+  --tag-decoration-hover: none;
+  --tag-background: var(--bg_visual_light);
+  --tag-background-hover: var(--bg0-dh)
+  --tag-border-color: var(--faded-red) ; 
+  --tag-border-color-hover: var(--faded-red) ; 
+  --tag-border-width: 0px;
+  /* tags padding  */
+  --tag-padding-x: 1.6em;
+  --tag-padding-y: 0.2em;
+  --tag-radius: 0.4em;
+  --tag-weight: 600 ;
+
+/* tags color  */
+.cm-hashtag{
+    color  :  var(--faded-green) !important ; 
+    background-color : var(--background-primary-alt)  !important; 
+}
+
+/* last part of the tag get the border differenly  */
+.cm-hashtag.cm-hashtag-end{
+    border-top: solid 1px var(--very-dark-green);
+    border-bottom: solid 1px var(--very-dark-green);
+    border-right: solid 1px var(--very-dark-green);
+}
+
+/* first  part of the tag get the border differenly  */
+.cm-hashtag.cm-hashtag-begin { 
+    border-top: solid 1px var(--very-dark-green);
+    border-bottom: solid 1px var(--very-dark-green);
+    border-left: solid 1px var(--very-dark-green);
+    
+}
+
+
+/* Relatd to title bar styles  */
+ /* Window frame */
+  --titlebar-background: var(--background-secondary-alt);
+  --titlebar-background-focused: var(--background-primary);
+  /* not sure where this is applied (check later ) */
+  --titlebar-border-width: 1px !important;
+  --titlebar-border-color: var(--faded-red);
+  --titlebar-text-color: var(--text-offwhite-faded);
+  --titlebar-text-color-focused: var(--text-normal);
+  --titlebar-text-weight: var(--font-bold);
+
+
+
+/* Toggles */
+/* changed to be more square and easier to see on the eyes  */
+  --toggle-border-width: 3.5px;
+  --toggle-width: 45px;
+  --toggle-radius: 5px;
+  --toggle-thumb-color: var(--faded-green);
+  --toggle-thumb-radius: 6px;
+  --toggle-thumb-height: 18px;
+  --toggle-thumb-width: 18px;
+  --toggle-s-border-width: 2px;
+  --toggle-s-width: 34px;
+  --toggle-s-thumb-height: 15px;
+  --toggle-s-thumb-width: 15px;
+
+
+  /* Vault name */
+  /* Not sure where this is shown (everything is set to default here  */
+  --vault-name-font-size: var(--font-ui-small);
+  --vault-name-font-weight: var(--font-medium);
+  --vault-name-color: var(--text-normal);
+
+
+
+/* NOT sure where this is used or will be used  */
+ /* Workspace */
+  --workspace-background-translucent: rgba(var(--mono-rgb-0), 0.6);
+
+/* color mappings (no need to put them since they can overide the current settings that i am using right now  */
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* make the text bold */
 
 
 /* LIGHT THEME  */
@@ -505,14 +1345,6 @@ colors goes down the hue and sat gradient from orange to hues down and end up at
 
 
 
-/* TODO: change this to better color later */
-    /*  This is the links and THe color of links when hoevered */
-    /* example is https://www/.youtube.com */
-    --text-accent:                   var(--faded-red);
-    --text-accent-hover:             var(--dark-yellow);
-
-
-
 
 /* Tags */
 /*  Text that is the link in your file*/
@@ -538,9 +1370,6 @@ colors goes down the hue and sat gradient from orange to hues down and end up at
     --bold-color:                    var(--dark-green);
 
 
-    /* ideas : text will be dim when its italic */
-/* set to some sensible color as well */
-    --italic-color:                  var(--dark-purple);
 
 /* TO be changed / reconsidered lateer */
     /* normal color of the check box shown */
@@ -834,70 +1663,9 @@ so a good balance between contrast and readability is very good */
 
 
 
-table
-{
-    border: 1px solid var(--background-secondary) !important;
-    border-collapse: collapse;
-}
 
-thead
-{
-    border-bottom: 2px solid var(--background-modifier-border) !important;
-}
-  
-th
-{
-    font-weight: 600 !important;
-    border: 1px solid var(--background-secondary) !important;
-}
 
-td
-{
-    border-left: 1px solid var(--background-secondary) !important;
-    border-right: 1px solid var(--background-secondary) !important;
-    border-bottom: 1px solid var(--background-secondary) !important;
-}
-
-.markdown-rendered tbody tr:nth-child(even)
-{
-    background-color: var(--table-row-even-background) !important;
-}
-
-.markdown-rendered tbody tr:nth-child(odd)
-{
-    background-color: var(--table-row-odd-background) !important;
-}
-
-.markdown-rendered tbody tr:nth-child(even):hover,
-.markdown-rendered tbody tr:nth-child(odd):hover
-{
-    background-color: var(--table-row-background-hover) !important;
-}
-
-.markdown-rendered mark
-{
-    background-color: var(--text-highlight-bg) !important;
-    color: var(--text-highlight-fg) !important;
-}
-
-.markdown-rendered mark a
-{
-    color: var(--red) !important;
-    font-weight: 600;
-}
-
-.search-result-file-matched-text
-{
-    color: var(--text-highlight-fg) !important;
-}
-
-.cm-hashtag-begin:hover, .cm-hashtag-end:hover
-{
-    color: var(--text-accent);
-    /* background-color: var(--tag-background-hover); */
-    text-decoration: underline;
-}
-
+/*Check box GLobal Styles  */
 input[type=checkbox]
 {
     border: 1px solid var(--checkbox-color);
@@ -914,17 +1682,17 @@ input[type=checkbox]:checked:after
     display: none;
 }
 
+
+
+
+
+
 code[class*="language-"],
 pre[class*="language-"]
 {
     line-height: var(--line-height-tight) !important;
 }
 
-/* Keep highlight/marks the same between viewer and editor. */
-.cm-highlight
-{
-    color: var(--text-highlight-fg) !important;
-}
 
 /* Keep inline code the same between viewer and editor. */
 .cm-inline-code

@@ -170,3 +170,11 @@ This project was made possible thanks to these open source projects
 
 - [obsidian](https://github.com/obsidianmd) 
 - [gruvbox](https://github.com/morhetz/gruvbox)
+
+
+
+
+
+## Todo : 
+The project was backuped with the main file and will now be used as a template later  
+- make sure to give the search file part more love and make the colors more readable as well 
