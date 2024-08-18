@@ -139,26 +139,11 @@ body
     /* hsl(61.19999999999999, 66.2%, 44.1%) us used here for green  */
 
 
-    --accent-h: 61.2 !important; 
-    --accent-s: 66.1% !important;
-    --accent-l: 24.1% !important;
-
-
     --link-decoration:                none;
     --link-decoration-hover:          none;
     --link-external-decoration:       none;
     --link-external-decoration-hover: none;
 
-    --tag-decoration:                 none;
-    --tag-decoration-hover:           underline;
-    --tag-padding-x:                  .5em;
-    --tag-padding-y:                  .2em;
-    --tag-radius:                     .5em;
-
-    --tab-font-weight:                600;
-    --bold-weight:                    700;
-
-    --checkbox-radius:                19px !important;
 
     /* --list-indent:                    2em; */
 
@@ -172,6 +157,7 @@ body
 .theme-light
 {
 
+   
     /* BORDERS AND BACKGROUNDS */
     /*Main background primary back ground -> This applied to everything that is in the bg (also can  be thought of as the paint bucking your whole canvas )  */
     --background-primary: var(--text-white ) ;
@@ -217,13 +203,11 @@ body
     */
 /* Caret Styles  */
 
-/*  Caret color whne single */
-.markdown-source-view.mod-cm6 .cm-content {
-  width: 80rem !important ;
-  caret-color: var(--dim-green) !important ; 
-  min-height: unset;
-  padding: 0px ;
-}
+/* Caret Style set as the accent color  */
+/* Value Default that i really liked is hsl(47.10000000000002, 79.3%, 26.5%) */
+    --accent-h: 47.2 !important; 
+    --accent-s: 79.3% !important;
+    --accent-l: 26.5% !important;
 
 
 
@@ -238,14 +222,13 @@ body
 /* main wriiten like the text you can read it just applies to that for now  */
     --text-normal:                   var(--bg-dark);
 /* Applies to line numbers in vim mode , arrows in side bar and X sign in aliases  */
-    --text-faint:                    var(--text--veryfade)
+    --text-faint:                    var(--fadded-red) ; 
 
     /* interface text basically */
     /*   tab Titles , side bar titles, property titles */
-    --text-muted:                    var(--text-offyellowish);
+    --text-muted:                    var(--text--veryfade);
 
 
-    /* NOT SURE WHAT THIS MEANS RIGHT NOW */
 /*  basic highlight color ig*/
     --text-highlight-bg:             var(--faded-green);
     --text-highlight-fg:             var(--fadded-green);
@@ -275,50 +258,39 @@ body
     --bold-color:                    var(--faded-green);
 
 
-    /* ideas : text will be dim when its italic */
-/* set to some sensible color as well */
-    --italic-color:                  var(--faded-purple);
-
-/* TO be changed / reconsidered lateer */
-    /* normal color of the check box shown */
-    --checkbox-color:                var(--light-yellow);
-    --checkbox-color-hover:          var(--bg2-dark);
-    --checkbox-border-color:         var(--bright-red);
-    /* check box border color when hovered */
-    --checkbox-border-color-hover:   var(--light-aqua);
-    /* after somethingis checked in the checklist it will take this color */
-    --checklist-done-color:          var(--light-red);
 
 
+     /* Checkboxes */
+     /* Check box border radius  */
+  --checkbox-radius: 4px !important;
+  /* Font size -> affects the size of the tick and check box it self  */
+  --checkbox-size:  1.15rem  !important ; 
+  /* Check box tick color  */
+  --checkbox-marker-color: var(--faded-orange);
+  /* Text decoration Style */
+  --checklist-done-decoration: line-through; 
+  /* Check list text color  */
+  --checklist-done-color: var(--text--veryfade)!important;
 
+  /* Checkboxes Styles  */
+.task-list-item-checkbox{
+  background-color : var(--text-offwhite) !important ; 
+  border: solid 3px var(--dim-green) !important ;
+}
 
-    /* Table header bg*/
-/* looks very ugly when set to other color */
-    --table-header-background:       var(--bg2-dark);
-/* colored when hoevered */
-    --table-header-background-hover: var(--bg0-dh);
-/* next 2 values can be changed to make thhe table more readable and can be changed with hover for bettter readability as well 
+/* Check boxes hover */
+.task-list-item-checkbox:hover{
+  background-color : var(--text-white) !important ; 
+  border: solid 3px var(--faded-red) !important ;
+  transition: border 0.3s ease-in-out !important;
 
-check these later to make sure to change these 
- */
-    --table-row-even-background:    var(--bg-dark);
-    --table-row-odd-background:      var(--bg-dark);
-/* hover color when you hover over the table enteries  */
-    --table-row-background-hover:    var(--bg0-dh);
-
-
-/* When you select the text */
-/* make sure this is just indicator and not too strong but you can see what text you are selecting also 
-so a good balance between contrast and readability is very good */
-    --text-selection:                var(--dim-red);
-    --flashing-background:           var(--faded-green);
+}
 
 
 
-/* 
 
-
-|__________|
+____________________
+|_______CODE ______|
 (\__/) || 
 (•ㅅ•) || 
 /     づ
@@ -362,6 +334,7 @@ so a good balance between contrast and readability is very good */
     
 .cm-s-obsidian div.HyperMD-codeblock-bg{
     font-weight: 700 !important;
+    font-family: "FiraCode Nerd" !important;
 }
 
 
@@ -481,7 +454,7 @@ so a good balance between contrast and readability is very good */
   --collapse-icon-color-collapsed: var(--text-accent);
 
  /* Cursor */
-  --cursor: :default !important;
+  --cursor: default !important;
   --cursor-link: cell;
 
 
@@ -692,8 +665,8 @@ so a good balance between contrast and readability is very good */
 
  /* Italic */
  /*Blue color for italic is very suiting and works well for now   */
-  --italic-color: var(--faded-blue);
-  --italic-weight: inherit;
+  --italic-color: var(--faded-red);
+  --italic-weight: 600  !important;
 
 
 
