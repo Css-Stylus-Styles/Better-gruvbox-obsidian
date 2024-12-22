@@ -1,5 +1,59 @@
 
 
+
+/* Add at the beginning of the file */
+
+/* Bricolage Grotesque Variable Font */
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('./Fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-stretch: 75% 125%;
+}
+
+/* JetBrains Mono Regular */
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('./Fonts/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* JetBrains Mono Bold */
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('./Fonts/JetBrainsMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Add to :root { } */
+:root {
+    /* ...existing code... */
+    
+    /* Font family variables */
+    --font-normal: 'JetBrains Mono', monospace;
+    --font-heading: 'Bricolage Grotesque', sans-serif;
+    
+    /* Font weights */
+    --font-normal-weight: 400;
+    --font-bold-weight: 700;
+    --font-light-weight: 300;
+}
+
+/* Example usage */
+body {
+    font-family: var(--font-normal);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+}
+
+
+
+
+
 :root
 
 {
@@ -12,10 +66,9 @@
 /*For basic text new color added  	 */
 --text-tinted :#ffd29c ;
 
-    
-
+ 
+    /* Todo Add new colors here  */
     /* 2.1 Dark theme color variables */
-
     --new-bg-black : #1A1D1E ; 
     --bg0-dh:       #1d2021;
     --bg1-dark:       #3c3836;
@@ -128,6 +181,8 @@
 
    
 }
+
+
 
 body
 {
